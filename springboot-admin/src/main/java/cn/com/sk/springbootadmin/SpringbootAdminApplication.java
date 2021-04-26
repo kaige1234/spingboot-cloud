@@ -12,4 +12,5 @@ public class SpringbootAdminApplication {
 		SpringApplication.run(SpringbootAdminApplication.class, args);
 	}
 
+
 }
