@@ -57,6 +57,7 @@
         <module>springcloud-user</module>
         <module>springboot-admin</module>
         <module>springboot-admin-client</module>
+        <module>springcloud-agile</module>
     </modules>
 
     <dependencies>
