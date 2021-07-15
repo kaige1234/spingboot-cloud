@@ -58,6 +58,8 @@
         <module>springboot-admin</module>
         <module>springboot-admin-client</module>
         <module>springcloud-agile</module>
+        <module>springcloud-nacostest</module>
+        <module>springcloud-nacosconsumer</module>
     </modules>
 
     <dependencies>
@@ -95,7 +97,11 @@
     <dependencyManagement>
         <dependencies>
             <!-- https://mvnrepository.com/artifact/com.alibaba/easyexcel -->
-
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-all</artifactId>
+                <version>5.7.3</version>
+            </dependency>
 
             <dependency>
                 <groupId>com.alibaba</groupId>
